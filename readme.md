@@ -1,6 +1,8 @@
 # Shitzu
 An extremely helpful and tiny wrapper for the fetch api.
 
+![Yep, that's my dog](https://skynet.doisbit.com/shitzu/logo.png)
+
 ## Basic usage example
 
 ```
