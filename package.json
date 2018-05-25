@@ -1,7 +1,8 @@
 {
   "name": "shitzu",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A really tiny wrapper for the new fetch api",
+  "keywords": ["fetch", "request", "unirest", "api", "ajax", "xhr"],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
