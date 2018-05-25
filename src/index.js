@@ -1,3 +1,5 @@
+import "babel-polyfill";
+
 /*
  * 2018
  * 

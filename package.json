@@ -1,6 +1,6 @@
 {
   "name": "shitzu",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A really tiny wrapper for the new fetch api",
   "keywords": [
     "fetch",
@@ -13,7 +13,7 @@
   "main": "lib/index.js",
   "scripts": {
     "compile": "babel src --out-dir lib",
-    "prepublish": "npm run compile",
+    "prepare": "npm run compile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -31,5 +31,8 @@
     "babel-plugin-transform-flow-strip-types": "^6.22.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-3": "^6.24.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
   }
 }
