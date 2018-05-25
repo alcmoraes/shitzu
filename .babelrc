@@ -1,0 +1,10 @@
+{
+    "presets": [
+      ["env", { "targets": { "modules": false, "esmodules": true } } ],
+      "stage-3"
+    ],
+    "plugins": [
+      "transform-object-rest-spread",
+      "transform-flow-strip-types"
+    ]
+}

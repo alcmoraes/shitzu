@@ -1,10 +1,19 @@
 {
   "name": "shitzu",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A really tiny wrapper for the new fetch api",
-  "keywords": ["fetch", "request", "unirest", "api", "ajax", "xhr"],
-  "main": "index.js",
+  "keywords": [
+    "fetch",
+    "request",
+    "unirest",
+    "api",
+    "ajax",
+    "xhr"
+  ],
+  "main": "lib/gstindex.js",
   "scripts": {
+    "compile": "babel src --out-dir lib",
+    "prepublish": "npm run compile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/alcmoraes/shitzu/issues"
   },
-  "homepage": "https://github.com/alcmoraes/shitzu#readme"
+  "homepage": "https://github.com/alcmoraes/shitzu#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
 }
