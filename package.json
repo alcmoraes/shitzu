@@ -1,6 +1,6 @@
 {
   "name": "shitzu",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A really tiny wrapper for the new fetch api",
   "keywords": [
     "fetch",
