@@ -1,6 +1,6 @@
 {
   "name": "shitzu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A really tiny wrapper for the new fetch api",
   "main": "index.js",
   "scripts": {
