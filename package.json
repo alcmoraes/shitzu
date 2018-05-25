@@ -1,0 +1,19 @@
+{
+  "name": "shitzu",
+  "version": "1.0.0",
+  "description": "A really tiny wrapper for the new fetch api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alcmoraes/shitzu.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alcmoraes/shitzu/issues"
+  },
+  "homepage": "https://github.com/alcmoraes/shitzu#readme"
+}
