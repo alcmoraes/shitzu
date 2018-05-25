@@ -1,6 +1,6 @@
 {
   "name": "shitzu",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A really tiny wrapper for the new fetch api",
   "keywords": [
     "fetch",
@@ -10,7 +10,7 @@
     "ajax",
     "xhr"
   ],
-  "main": "lib/gstindex.js",
+  "main": "lib/index.js",
   "scripts": {
     "compile": "babel src --out-dir lib",
     "prepublish": "npm run compile",
